@@ -1,0 +1,21 @@
+body  {
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,.4);
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 20px;
+}
+
