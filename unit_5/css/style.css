@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
+
+*  {
+	padding: 0;
+	margin:	0;
+}
+
+#hero {
+  	padding-top: 0;
+  	padding-bottom: 0;
+  	width: 100%;
+}
+
+header  {
+	padding: 20px;
+	background-color: #FFED74;
+    border: 1px black solid;
+}
+
+body  {
+	text-align: center;
+	color: #222222;
+	background: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+  	font-size: 4em;
+  	font-family: 'Playfair Display', 'Times New Roman', serif; 
+  	letter-spacing: 2px;
+}
+
+nav a {
+	font-style: bold;
+	font-size: 1.25em;
+	text-transform: lowercase;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+a {
+	color: rgb(226, 140, 5);
+	text-decoration: none;
+}
+
+.recipe  {
+	text-align: left;
+	padding-right: 30%;
+	font-family: 'Roboto', 'Arial', sans-serif;
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.story  {
+	text-align: right;
+	padding-left: 30%;
+	font-family: 'Playfair Display', 'Times New Roman', serif; 
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section img  {
+	width: 100%;
+	padding-bottom: 1.25em;
+	padding-top: 0.625em;
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+main  {
+	padding: 1.875em;
+}
+
+footer  {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h3, h4  {
+	margin-bottom: 1em;
+}
+
+
+h3 {
+	font-size: 1.75em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+ul  {
+	margin-bottom: 1.25em;
+}
+
+p  {
+	margin-bottom: 1.25em;
+}
+
+
+
+
+
+
+
