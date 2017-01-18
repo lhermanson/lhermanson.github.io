@@ -3,6 +3,7 @@
 *  {
 	padding: 0;
 	margin:	0;
+	box-sizing: border-box;
 }
 
 #hero img {
@@ -32,8 +33,11 @@ ul {
 
 h1 {
   	font-size: 4em;
-  	font-family: 'Playfair Display', 'Times New Roman', serif; 
+  	font-family: 'Playfair Display', 'Times New Roman', serif;
   	letter-spacing: 2px;
+  	/* background: purple; */
+  	/* color: #fff; */
+  	/* padding: 1em 0; */
 }
 
 nav a {
@@ -41,8 +45,9 @@ nav a {
 	font-size: 1.25em;
 	text-transform: lowercase;
 	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	padding: 20px;
+	display: inline-block;
 }
 
 a {
@@ -52,21 +57,23 @@ a {
 
 section {
 	text-align: left;
+	width: 1200px;
+	margin: 2em auto;
 }
 
 .recipe  {
 	font-family: 'Roboto', 'Arial', sans-serif;
 	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	padding: 4em;
 }
 
-.recipe img {
-	float: right;
+section img {
+	float: left;
 	width: 30%;
 	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 .story  {
@@ -113,6 +120,35 @@ ul  {
 
 p  {
 	margin-bottom: 1.25em;
+}
+section> div {
+    width: 70%;
+    float: left;
+    padding: 2em;
+}
+
+.clearfix:after, main > section:after {
+    height: 0;
+    visibility: hidden;
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section:nth-of-type(even) > * {
+    float: right;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+header {
+    background: url(../images/grandmaandgrandpaandcar.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10em 0 0;
+    height: 90vh;
 }
 
 
