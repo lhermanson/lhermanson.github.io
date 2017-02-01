@@ -6,17 +6,13 @@
 	box-sizing: border-box;
 }
 
+
 #hero img {
 	width: 100%;
 	padding-top: 0;
   	padding-bottom: 0;
 }
 
-header  {
-	padding: 20px;
-	background-color: #FFED74;
-    border: 1px black solid;
-}
 
 body  {
 	text-align: center;
@@ -35,17 +31,12 @@ h1 {
   	font-size: 4em;
   	font-family: 'Playfair Display', 'Times New Roman', serif;
   	letter-spacing: 2px;
-  	/* background: purple; */
-  	/* color: #fff; */
-  	/* padding: 1em 0; */
 }
 
 nav a {
 	font-style: bold;
 	font-size: 1.25em;
 	text-transform: lowercase;
-	background-color: #E8C66A;
-	border: 1px black solid;
 	padding: 20px;
 	display: inline-block;
 }
@@ -59,47 +50,33 @@ section {
 	text-align: left;
 	width: 1200px;
 	margin: 2em auto;
+    padding: 20px;
+}
+
+#left {
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+
+#right {
+    padding: 20px;
+    float: right;
+	width: 40%;
 }
 
 .recipe  {
 	font-family: 'Roboto', 'Arial', sans-serif;
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 4em;
-}
-
-section img {
-	float: left;
-	width: 30%;
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
 }
 
 .story  {
 	font-family: 'Playfair Display', 'Times New Roman', serif; 
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-.story img {
-	float: left;
-	width: 30%;
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 main  {
 	padding: 1.875em;
 }
 
-footer  {
-	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
-}
 
 h3, h4  {
 	margin-bottom: 1em;
@@ -121,11 +98,7 @@ ul  {
 p  {
 	margin-bottom: 1.25em;
 }
-section> div {
-    width: 70%;
-    float: left;
-    padding: 2em;
-}
+
 
 .clearfix:after, main > section:after {
     height: 0;
@@ -135,21 +108,8 @@ section> div {
     clear: both;
 }
 
-section:nth-of-type(even) > * {
-    float: right;
-}
 
-nav {
-    margin-top: 1em;
-}
 
-header {
-    background: url(../images/grandmaandgrandpaandcar.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 10em 0 0;
-    height: 90vh;
-}
 
 
 
